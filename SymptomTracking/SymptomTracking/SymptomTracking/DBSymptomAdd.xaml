@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SymptomTracking.DBSymptomCRUD"
+             Title="Add Records">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Add Symptoms to Track" Style="{StaticResource HeaderLabelStyle}"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Date of your pain" Style="{StaticResource LabelStyle}"></Label>
+                <DatePicker x:Name="symptomDate"></DatePicker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Location of Pain" Style="{StaticResource LabelStyle}"></Label>
+                <Picker x:Name="pickAvilSymptoms" SelectedIndex="0" WidthRequest="130"></Picker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Please rate your pain" Style="{StaticResource LabelStyle}"></Label>
+                <Picker x:Name="symptomPain" SelectedIndex="1" WidthRequest="50">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                        <x:String>10</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="(1 no pain - 10 severe pain)" TextColor="#505160"/>
+            <Label x:Name="addFeedback" Text="" Style="{StaticResource LabelStyle}"/>
+            <Button x:Name="addEvent" Text="Add" Clicked="AddEventClicked" Style="{StaticResource ButtonStyle}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

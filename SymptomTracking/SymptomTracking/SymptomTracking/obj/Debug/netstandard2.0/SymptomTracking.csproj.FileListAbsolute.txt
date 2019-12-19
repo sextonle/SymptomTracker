@@ -1,0 +1,17 @@
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\bin\Debug\netstandard2.0\SymptomTracking.deps.json
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\bin\Debug\netstandard2.0\SymptomTracking.dll
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\SymptomTracking.csprojAssemblyReference.cache
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\SymptomTracking.csproj.CoreCompileInputs.cache
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\SymptomTracking.AssemblyInfoInputs.cache
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\SymptomTracking.AssemblyInfo.cs
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\bin\Debug\netstandard2.0\SymptomTracking.pdb
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\DBSymptomAdd.xaml.g.cs
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\DBSymptomInsertDelete.xaml.g.cs
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\MySymptoms.xaml.g.cs
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\ViewPage.xaml.g.cs
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\SymptomTracking.dll
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\SymptomTracking.pdb
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking\obj\Debug\netstandard2.0\ViewResults.xaml.g.cs

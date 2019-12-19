@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SymptomTracking.DBSymptomInsertDelete"
+             Title="Alter Records">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Update/ Delete Tracked Symptoms" Style="{StaticResource HeaderLabelStyle}"/>
+            <Label Text="Below are all of your tracked records:" Style="{StaticResource LabelStyle}"></Label>
+            <ListView x:Name="dataB" HeightRequest="200"></ListView>
+            <Label x:Name="UpdateFeedback" Text="" Style="{StaticResource LabelStyle}" HorizontalOptions="Center"/>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="Update" Text="Update" Clicked="UpdateRecordClicked" Style="{StaticResource ButtonStyle}" HorizontalOptions="FillAndExpand"/>
+                <Button x:Name="Delete" Text="Delete" Clicked="DeleteRecordClicked" Style="{StaticResource ButtonStyle}" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            
+            <!-- Below is a hidden layout that will appear when the user wants to update a record-->
+            <StackLayout x:Name="hiddenStackLayout" IsVisible="False" Margin="20">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Date of your pain" Style="{StaticResource LabelStyle}"></Label>
+                    <DatePicker x:Name="UpdateSymptomDate"></DatePicker>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Location of Pain" Style="{StaticResource LabelStyle}"></Label>
+                    <Picker x:Name="UpdatePickAvilSymptoms" SelectedIndex="0"></Picker>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Please rate your pain (1 no pain - 10 severe pain)" Style="{StaticResource LabelStyle}"></Label>
+                    <Picker x:Name="UpdateSymptomPain" SelectedIndex="0">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="UpdateEvent" Text="Update My record" Clicked="FinalUpdateClicked" Style="{StaticResource ButtonStyle}" HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="cancel" Text="Cancel" Clicked="Cancel_Clicked" Style="{StaticResource ButtonStyle}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

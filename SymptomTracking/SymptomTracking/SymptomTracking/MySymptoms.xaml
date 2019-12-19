@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SymptomTracking.MySymptoms"
+             Title="Symptom Tracker">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="My Symptoms" Style="{StaticResource HeaderLabelStyle}"/>
+            <Label Text="Select up to 5 symptoms below to track" Style="{StaticResource LabelStyle}"/>
+            <Label Text="Your Symptom:" Style="{StaticResource LabelStyle}" Margin="0,10,0,0"/>
+            <Picker x:Name="symptomPicker" SelectedIndex="1">
+                <Picker.Items>
+                    <x:String>Left Jaw</x:String>
+                    <x:String>Right Jaw</x:String>
+                    <x:String>Neck</x:String>
+                    <x:String>Upper Back</x:String>
+                    <x:String>Left Shoulder</x:String>
+                    <x:String>Right Shoulder</x:String>
+                    <x:String>Left Elbow</x:String>
+                    <x:String>Right Elbow</x:String>
+                    <x:String>Left Wrist</x:String>
+                    <x:String>Right Wrist</x:String>
+                    <x:String>Stomach</x:String>
+                    <x:String>Lower Back</x:String>
+                    <x:String>Left Hip</x:String>
+                    <x:String>Right Hip</x:String>
+                    <x:String>Left Hip Flexor</x:String>
+                    <x:String>Right Hip Flexor</x:String>
+                    <x:String>Left Knee</x:String>
+                    <x:String>Right Knee</x:String>
+                    <x:String>Left Ankle</x:String>
+                    <x:String>Right Ankle</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label x:Name="tooMany" Text="" Style="{StaticResource LabelStyle}" Margin="0"/>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="addSymptom" Text="Add Symptom" Clicked="AddSymptomClicked" Style="{StaticResource ButtonStyle}" HorizontalOptions="FillAndExpand" Margin="0,0,0,10"/>
+                <Button x:Name="removeSymptom" Text="Remove Symptom" Clicked="RemoveSymptomClicked" Style="{StaticResource ButtonStyle}" HorizontalOptions="FillAndExpand" Margin="0,0,0,10"/>
+            </StackLayout>
+            <ListView x:Name="addedSymptoms">
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

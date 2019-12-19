@@ -1,0 +1,1 @@
+C:\Users\lasex\Documents\GitHub\PatientSymptomTracking\SymptomTracking\SymptomTracking\SymptomTracking.UWP\SymptomTracking.UWP.csproj;x86

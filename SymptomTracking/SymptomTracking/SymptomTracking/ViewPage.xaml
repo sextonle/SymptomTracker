@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SymptomTracking.ViewPage"
+             Title="View Records">
+    
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="View Records" Style="{StaticResource HeaderLabelStyle}"/>
+            <Label Text="Click below to see a formatted version of all of your records." HorizontalOptions="CenterAndExpand" Style="{StaticResource LabelStyle}"/>
+            <Button Text="View all current records" Clicked="newPageClicked" Style="{StaticResource ButtonStyle}"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
